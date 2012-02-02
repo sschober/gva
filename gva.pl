@@ -42,7 +42,7 @@ sub process {
     $lower = $1;
     $line = $2."\n";
   }
-  carp "line:$line\nlower:$lower\nupper: $upper\n\n";
+  #carp "line:$line\nlower:$lower\nupper: $upper\n\n";
   return ($line, [$lower, $upper]);
 }
 
