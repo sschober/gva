@@ -61,5 +61,5 @@ Frame 3
 
 ## Usage
 
-   gva.pl <file>
+    gva.pl <file>
 
