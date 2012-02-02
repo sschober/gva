@@ -1,21 +1,8 @@
 digraph {
-    node[shape=square style=filled];
-    A [color=orange pos="0,3!"];
-    B [color=royalblue1 pos="0,0!"];
-    C [color=orangered pos="3,3!"];
-    D [color=olivedrab3 pos="3,0!"];
-
-#1-    node[shape=circle pos="1.5,1.5"];
-#1-    edge[arrowhead=none];
-#1-    u -> v -> w -> {x y}
-#1-
-#1-    A -> u;
-#1-    B -> v;
-#1-    C -> y;
-#1-    D -> x;
-#
-#2-   splines=true;
-#2-   sep=.1;
-#2-    edge[arrowhead=normal];
-#2-    A -> D [constraint=false];
+ size=2;
+ node[shape=square style=filled];
+ A [color=orange pos="0,3!"];
+ #1-    B [color=royalblue1 pos="0,0!"];
+ #2    C [color=orangered pos="3,3!"];
+ #2-3    D [color=olivedrab3 pos="3,0!"];
 }
